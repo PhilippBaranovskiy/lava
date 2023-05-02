@@ -38,5 +38,19 @@
 		}, 500);
 	});
 
+	(function(_win,_doc,_type,_path,_var){
+		_win[_var]=_win[_var]||function(){
+			(_win[_var].a=_win[_var].a||[]).push(arguments);
+		};
+		_win[_var].l=1*new Date();
+		for (var j = 0; j < document.scripts.length; j++) {
+			if (document.scripts[j].src === _path) { return; }
+		}
+		k=_doc.createElement(_type),
+		a=_doc.getElementsByTagName(_type)[0],
+		k.async=1,k.src=_path,a.parentNode.insertBefore(k,a)
+	})(window, document, 'script', '/install_lava_files/v.js', 'v');
+
+	v(93440254, 'init', {});
 </script>
-</head><body></body></html>
+</head><body><img src="https://mc.yandex.com/watch/93440254" style="position:absolute; left:-9999px;" alt="" /></body></html>
